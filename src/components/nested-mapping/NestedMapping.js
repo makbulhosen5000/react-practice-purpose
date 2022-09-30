@@ -40,8 +40,8 @@ function NestedMapping() {
                       {
                         user.studentInfo.map((info,index)=>(
                           <div key={index}>
-                              <p className="description">Id: {info.id} </p>
-                              <p className="description">Section: {info.section} </p>
+                              <p>Id:{info.id}</p>
+                              <p>Section:{info.section}</p>
                           </div>
                         ))
                       }
