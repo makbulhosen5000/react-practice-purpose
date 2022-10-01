@@ -1,5 +1,6 @@
 import React from 'react';
-import StateClassCom from './components/STATE/ClassComponent/StateClassCom';
+import Counter from './components/STATE/ClassComponent/Counter';
+// import StateClassCom from './components/STATE/ClassComponent/StateClassCom';
 // import Card from './components/mapping/Card';
 // import NestedMapping from './components/nested-mapping/NestedMapping';
 
@@ -11,7 +12,8 @@ export default function App() {
         {/* mapping with props */}
             {/* <Card /> */}
             {/* <NestedMapping /> */}
-            <StateClassCom/>
+            {/* <StateClassCom/> */}
+            <Counter/>
 
         </div>
     )
