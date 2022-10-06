@@ -1,5 +1,6 @@
 import React from 'react';
-import CssDynamicStyle from './components/css-dynamic-style/CssDynamicStyle';
+// import CssDynamicStyle from './components/css-dynamic-style/CssDynamicStyle';
+import InputForm from './components/css-dynamic-style/InputForm';
 // import Count from './components/STATE/FunctionalComponent/Count';
 // import EventHandler from './components/STATE/event-handler/EventHandler';
 // import ConditionalRendering from './components/conditional-rendering/ConditionalRendering';
@@ -23,7 +24,8 @@ export default function App() {
             {/* <ConditionalRendering/> */}
             {/* <EventHandler/> */}
             {/* <Count/> */}
-            <CssDynamicStyle/>
+            {/* <CssDynamicStyle/> */}
+            <InputForm/>
 
         </div>
     )
