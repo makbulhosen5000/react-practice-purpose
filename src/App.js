@@ -1,5 +1,6 @@
 import React from 'react';
-import Counter from './components/STATE/FunctionalComponent/Counter';
+import FORM from './components/STATE/FORM/FORM';
+// import Counter from './components/STATE/FunctionalComponent/Counter';
 // import CssDynamicStyle from './components/css-dynamic-style/CssDynamicStyle';
 // import InputForm from './components/css-dynamic-style/InputForm';
 // import Count from './components/STATE/FunctionalComponent/Count';
@@ -27,7 +28,8 @@ export default function App() {
             {/* <Count/> */}
             {/* <CssDynamicStyle/> */}
             {/* <InputForm/> */}
-            <Counter/>
+            {/* <Counter/> */}
+            <FORM/>
 
         </div>
     )
