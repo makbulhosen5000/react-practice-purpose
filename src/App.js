@@ -1,5 +1,7 @@
 import React from 'react';
-import FORM from './components/STATE/FORM/FORM';
+import Child from './components/STATE/PassingData/Child';
+// import FORM from './components/STATE/FORM/FORM';
+import Parent from './components/STATE/PassingData/Parent';
 // import Counter from './components/STATE/FunctionalComponent/Counter';
 // import CssDynamicStyle from './components/css-dynamic-style/CssDynamicStyle';
 // import InputForm from './components/css-dynamic-style/InputForm';
@@ -29,7 +31,8 @@ export default function App() {
             {/* <CssDynamicStyle/> */}
             {/* <InputForm/> */}
             {/* <Counter/> */}
-            <FORM/>
+            {/* <FORM/> */}
+            <Parent/>
 
         </div>
     )
