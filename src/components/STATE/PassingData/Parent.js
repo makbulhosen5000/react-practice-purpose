@@ -3,13 +3,13 @@ import Child from './Child'
 
 function Parent() {
 
-    const sentDataParentToChild=(catchChildData)=>{
-       console.log("Parent" + catchChildData);
-    }
 
+    const receiveChildData = (ReceiveDataFromChild)=>{
+      console.log(ReceiveDataFromChild);
+    }
   return (
     <div>
-        <Child  onSentData={sentDataParentToChild} />
+        <Child  onSentToChild = {receiveChildData} />
     </div>
   )
 }
